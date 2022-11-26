@@ -1,0 +1,185 @@
+ body{ 
+    background-color: #e3dbd3 ;
+    color: #082253;
+    font-size: 18px;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ h1{
+    color: #000;
+ }
+    .container{
+        max-width: 90%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .avatar{
+        width:180px;
+        border-radius: 50px;
+        box-shadow: 5px 5px 15px rgba( 0, 0, 0, 75%);
+    }
+    .info p {
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 0 20px;
+    }
+    .info h4{
+        padding: 0 20px;
+    }
+
+    .info{
+        margin-bottom: 10px;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 700px){
+        .info{
+            text-align: center;
+        }
+    }
+    }
+    .info-text{
+        margin-left: 40px;
+    }
+    .trump{
+        color: #000;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .info a{
+        text-decoration: none;
+        margin: 0 15px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .card{
+        padding: 15px 20px;
+        border-radius: 15px;
+        border-style: double;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        margin-bottom: 10px;
+    }
+    .bg-green{
+        background-color: #caeebe ;
+        border: 4px solid #508b39;
+        border-style: double;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+    }
+    .bg-purple{
+        background-color: #eed0f0;
+        border: 4px solid #dc89e0;
+        border-style: double;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+    }
+    .bg-blue{
+        background-color: #b0d2e6;
+        border: 4px solid #71add0;
+        border-style: double;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+    }
+    .card h2{
+        margin-bottom: 10px;
+        margin-top: 1px;
+    }
+    .list{
+        padding: 0 20px;
+    }
+    .list a{
+        color: #000;
+    }
+    .list li{
+        margin-bottom: 5px;
+    }
+    .table{
+        width: 100%;
+    }
+    .table td{
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .table tr:nth-child(1){
+        background-color: #c09dc5;
+        color: #000;
+    }
+    .bg-green li:nth-child(odd){
+        background-color: #a6e292;
+    }
+    .bg-green li:nth-child(even){
+        border-bottom: 1px solid #329b0f;
+        border-top: 1px solid #329b0f;
+    }
+.film a{
+    padding-bottom: 5px 10px;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+}
+     .cont h2{
+        text-align: center;
+        }
+     .bg-green h2{
+        text-align: center
+        }
+     .bg-purple h2{
+        text-align: center
+        }
+     .gruop label{
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+    }
+     .gruop input, 
+     .gruop-text textarea{
+     width: 100%;
+     box-sizing: border-box;
+     border: none;
+     background: transparent;
+     border-bottom: 1px dotted #71add0;
+     padding: 10px 3px;
+     outline: none;
+     font-family: inherit;
+    }
+     .row {
+     display: flex;
+     margin-bottom: 20px;
+     }
+     .row > .gruop{
+        width: 50%;
+        margin-right: 10px;
+     }
+     .row > .gruop:last-child{
+        margin-right: 0px;
+     }
+     .btn{
+        padding: 5px 20px;
+        background-color: #4e5051;
+        color: #fff;
+        font-family: inherit;
+        font-size: 14px;
+        cursor: pointer;
+     }
+     .btn:hover{
+        opacity: 0.8;
+     }
+     .seti{
+        background-color: #dd2020 ;
+        border: 6px solid #ffffff;
+        border-style: double;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-radius: 30%;
+        padding: 4px 8px;
+        color: #fff;
+     }
+     .seti:hover{
+        opacity: 0.8;
+     }
